@@ -1,5 +1,10 @@
 # Calculadora Básica de Terminal
 import math
+
+# Función para sumar dos números
+def suma(a, b):
+    return a + b
+
 while True:
     print("\nCalculadora Básica")
     print("1. Suma")
@@ -38,9 +43,7 @@ while True:
     else:
         print("Opción no válida. Intenta de nuevo.")
 
-# Función para sumar dos números
-# def sumar(a, b):
-#     pass
+
 
 # Función para restar dos números
 # def restar(a, b):
