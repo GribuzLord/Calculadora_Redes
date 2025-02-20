@@ -11,6 +11,13 @@ def division(a, b):
         return a / b
     else:
         return "Error: División por cero"
+    
+# Funcion para obtener la raiz cuadrada de un número
+def raiz_cuadrada(a):
+    if a < 0:
+        return f"Error: el numero debe ser positivo"
+    return math.sqrt(a)
+
 
 while True:
     print("\nCalculadora Básica")
