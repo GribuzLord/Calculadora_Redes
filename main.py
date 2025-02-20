@@ -27,6 +27,10 @@ def raiz_cuadrada(a):
         return f"Error: el numero debe ser positivo"
     return math.sqrt(a)
 
+# Funcion para obtener la potencia de un numero
+def potencia(a,b):
+    return a**b
+
 
 while True:
     print("\nCalculadora Básica")
