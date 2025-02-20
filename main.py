@@ -5,6 +5,13 @@ import math
 def suma(a, b):
     return a + b
 
+# Función para dividir dos números
+def division(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: División por cero"
+
 while True:
     print("\nCalculadora Básica")
     print("1. Suma")
