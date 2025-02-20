@@ -1,6 +1,10 @@
 # Calculadora Básica de Terminal
 import math
 
+#Funcion para multiplicar dos numeros
+def multiplicacion(a,b):
+    return a*b
+
 # Función para sumar dos números
 def suma(a, b):
     return a + b
