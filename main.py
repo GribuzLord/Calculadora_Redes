@@ -11,6 +11,11 @@ def division(a, b):
         return a / b
     else:
         return "Error: División por cero"
+        
+# Función para restar dos números
+def resta(a, b):
+    return a - b
+
     
 # Funcion para obtener la raiz cuadrada de un número
 def raiz_cuadrada(a):
@@ -59,9 +64,7 @@ while True:
 
 
 
-# Función para restar dos números
-# def restar(a, b):
-#     pass
+
 
 # Función para multiplicar dos números
 # def multiplicar(a, b):
