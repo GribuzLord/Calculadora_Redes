@@ -9,13 +9,7 @@ def multiplicacion(a,b):
 def suma(a, b):
     return a + b
 
-# Función para dividir dos números
-def division(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Error: División por cero"
-        
+
 # Función para restar dos números
 def resta(a, b):
     return a - b
@@ -79,8 +73,12 @@ while True:
 #     pass
 
 # Función para dividir dos números
-# def dividir(a, b):
-#     pass
+def division(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: División por cero"
+        
 
 # Función principal que muestra el menú y maneja la lógica de la calculadora
 # def main():
